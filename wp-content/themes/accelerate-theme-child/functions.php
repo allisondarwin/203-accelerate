@@ -16,3 +16,20 @@ function accelerate_child_scripts(){
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' )); //get_stylesheet_directory_uri() points to active theme, which is the child in this case
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
+
+//Create custom post type function
+function create_custom_post_types() {
+//Create case studies post type
+    register_post_type( 'case_studies', //gives new custom post type a unique name
+        array( //defines a bunch of settings for new post type
+            'labels' => array(
+                'name' => __( 'Case Studies' ), //human readable name, the name you will see in admin on lefthand side
+                'singular_name' => __( 'Case Study' ) //singluar form of name
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'case-studies' ), //the name used in the URLs for your case study posts - http://localhost:8888/accelerate/case-studies/something-something/
+        )
+    );
+}
+add_action( 'init', 'create_custom_post_types' );
