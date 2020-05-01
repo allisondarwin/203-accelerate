@@ -3,3 +3,7 @@
 wp-config.php
 .htaccess
 wp-content/uploads
+wp-includes
+wp-admin
+wp-mail.php
+wp-settings.php
