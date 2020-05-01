@@ -178,3 +178,56 @@ div.case-study-images img {
   border-radius: 50%;
   color: #fff;
 }
+
+/*** contact form ***/
+
+.contact-form-content {
+  max-width: 650px;
+  margin-left: 150px;
+}
+
+div#nf-field-1-container.nf-field-container.textbox-container.label-above {
+  float: left;
+  width: 48%;
+}
+
+div#nf-field-2-container.nf-field-container.email-container.label-above {
+  float: right;
+  clear: none;
+  width: 48%;
+}
+
+div#nf-field-3-wrap.field-wrap.textarea-wrap {
+  clear:both;
+}
+
+.contact-form-content h2 {
+  font-size: 1.5em;
+  margin: 11px 0 0;
+}
+
+.contact-form-content p {
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.nf-form-fields-required, .ninja-forms-req-symbol {
+  display: none;
+}
+
+div.nf-field-label #nf-label-field-1, #nf-label-field-2, #nf-label-field-3 {
+  font-weight: 400;
+  font-size: 0.875em;
+}
+
+input#nf-field-1.ninja-forms-field.nf-element,
+input#nf-field-2.ninja-forms-field.nf-element,
+textarea#nf-field-3.ninja-forms-field.nf-element {
+  background: #fff;
+}
+
+div.nf-field-element #nf-field-4 {
+  float: right;
+  background: #45ac9d;
+  padding: 12px 70px;
+}
