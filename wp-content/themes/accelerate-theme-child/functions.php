@@ -31,5 +31,19 @@ function create_custom_post_types() {
             'rewrite' => array( 'slug' => 'case-studies' ), //the name used in the URLs for your case study posts - http://localhost:8888/accelerate/case-studies/something-something/
         )
     );
+
+//Create services custom post types
+		register_post_type( 'services', //gives new custom post type a unique name
+				array( //defines a bunch of settings for new post type
+						'labels' => array(
+								'name' => __( 'Services' ), //human readable name, the name you will see in admin on lefthand side
+								'singular_name' => __( 'Service' ) //singluar form of name
+						),
+						'public' => true,
+						'has_archive' => false,
+						'rewrite' => array( 'slug' => 'services' ), //the name used in the URLs for your case study posts - http://localhost:8888/accelerate/case-studies/something-something/
+				)
+		);
+
 }
 add_action( 'init', 'create_custom_post_types' );

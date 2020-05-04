@@ -91,6 +91,40 @@ Text Domain:  accelerate-theme-child
   font-size: 1.5em;
 }
 
+/*** About Page Styles ***/
+
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: auto;
+  margin: 0;
+  padding: 2.15em 0;
+  text-align: center;
+}
+
+.hero-content h3 {
+  font-size: 1.5em;
+  margin: 0 auto 2em auto;
+  width: 40%;
+  line-height: 1.5em;
+}
+
+.services h4 {
+  font-size: 0.875em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 80px auto 30px;
+}
+
+.services .services-intro {
+  font-size: 1em;
+  text-align: center;
+  width: 50%;
+}
+
+.call-to-action {
+  border-top: 1px solid #cccccc;
+}
+
 /*** Single Case Study Styles ***/
 
 .case-study {
