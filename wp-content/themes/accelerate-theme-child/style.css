@@ -19,6 +19,10 @@ Text Domain:  accelerate-theme-child
   text-transform: uppercase;
 }
 
+ul {
+  list-style: none;
+}
+
 /*** Home page styles ***/
 
 .home-page {
@@ -115,14 +119,63 @@ Text Domain:  accelerate-theme-child
   margin: 80px auto 30px;
 }
 
-.services .services-intro {
+.services-intro {
   font-size: 1em;
   text-align: center;
   width: 50%;
 }
 
+.services-content {
+  margin: 75px 0;
+}
+
+.individual-service {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.individual-service:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.individual-service .service-details {
+  width: 70%;
+}
+
+.service-details h3, p {
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.service-details h3 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.service-details p {
+  font-size: 1em;
+}
+
 .call-to-action {
   border-top: 1px solid #cccccc;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.call-to-action h4 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 1.5em;
+  margin: 70px 20px 30px 0;
+}
+
+.cta-button {
+  background: #45ac9d;
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 700;
+  padding: 15px 60px;
+  margin: 70px 0 30px 20px;
 }
 
 /*** Single Case Study Styles ***/
