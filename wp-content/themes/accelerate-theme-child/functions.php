@@ -14,6 +14,7 @@
 function accelerate_child_scripts(){
 	wp_enqueue_style( 'accelerate-style', get_template_directory_uri() . '/style.css' ); //get_template_directory_uri() function references theme files in parent theme, which we want to enque first
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', array( 'accelerate-style' )); //get_stylesheet_directory_uri() points to active theme, which is the child in this case
+	wp_enqueue_style('accelerate-child-google-fonts', '//fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 }
 add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' );
 
