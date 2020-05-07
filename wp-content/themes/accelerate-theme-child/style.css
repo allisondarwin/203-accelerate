@@ -127,7 +127,7 @@ div#secondary.widget-area .stt-em {
   text-align: center;
 }
 
-.hero-content h3 {
+div#primary.about-page.hero-content h3 {
   font-size: 1.5em;
   margin: 0 auto 2em auto;
   width: 40%;
