@@ -288,6 +288,21 @@ div.case-study-images img {
   color: #fff;
 }
 
+/*** blog page ***/
+
+aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget label {
+  color: #666;
+  font-family: 'Open Sans', Arial, sans-sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+aside#mc4wp_form_widget-2.widget.widget_mc4wp_form_widget input[type="button"], input[type="submit"] {
+  background: #45ac9d;
+  padding: 0px 50px;
+  height: 3em;
+}
+
 /*** contact form ***/
 
 .contact-form-content {
