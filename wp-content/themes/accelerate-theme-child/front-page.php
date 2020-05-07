@@ -57,10 +57,18 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-	<div id="secondary" class="widget-area" role="complementary">
-			<?php dynamic_sidebar( 'sidebar-2' ); ?>
-	</div>
-	<?php endif; ?>
+	<section class="recent-tweets">
+		<div class="site-content">
+			<div class="tweet">
+				<h4>Recent Tweets</h4>
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					</div>
+				<?php endif; ?>
+				<a href="#" target="_blank" class="read-more-link">Follow Us ></a>
+			</div>
+		</div>
+	</section>
 
 <?php get_footer(); ?>

@@ -79,20 +79,42 @@ ul {
   margin-top: 20px;
 }
 
-.blog-post {
-  width: 50%;
-  float: left;
+.blog-post,
+.tweet {
+  width: 45%;
   margin: 3.63em 0 2em;
 }
 
-.blog-post h4 {
+.blog-post {
+  float: left;
+}
+
+.tweet {
+  float: right;
+}
+
+.blog-post h4,
+.tweet h4 {
   color: #a6a6a6;
   font-size: 0.9375em;
   text-transform: uppercase;
 }
 
-.blog-post h3 {
+.blog-post h3,
+.widget-title {
   font-size: 1.5em;
+}
+
+ul.tweets {
+  margin: 0;
+}
+
+div#secondary.widget-area {
+  margin-bottom: 45px;
+}
+
+div#secondary.widget-area .stt-em {
+  display: none;
 }
 
 /*** About Page Styles ***/
