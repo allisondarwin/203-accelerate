@@ -389,8 +389,18 @@ div.nf-field-element #nf-field-4 {
 }
 
 @media only screen and (min-width: 768px) {
-  .read-more-link {
-    color: red;
+  /**** homepage tablet styles ****/
+
+  .hero-content h1 {
+    font-size: 2.5em;
+  }
+
+  .hero-content h3 {
+    font-size: 1.25em;
+  }
+
+  a.button {
+    padding: 0.75em 3em;  /*desktop - 1em 3.75em*/
   }
 
 }
