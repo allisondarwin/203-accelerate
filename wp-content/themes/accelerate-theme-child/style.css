@@ -382,3 +382,10 @@ div.nf-field-element #nf-field-4 {
   color: #45ac9d;
   font-weight: 700;
 }
+
+@media only screen and (min-width: 768px) {
+  .read-more-link {
+    color: red;
+  }
+  
+}
