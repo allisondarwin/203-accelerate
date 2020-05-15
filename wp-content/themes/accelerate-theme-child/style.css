@@ -260,17 +260,19 @@ div.case-study-images img {
 
 .site-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /*desktop - space-between*/
   align-items: flex-start;
+  flex-flow: row wrap; /*added for mobile*/
 }
 
 .site-description {
   float: none;
+  width: 100%;  /*desktop - need to change*/
 }
 
 .social-media-navigation {
   float: none;
-  width: 15%;
+  width: 100%;   /*desktop - 15%*/
 }
 
 .social-media-menu {
