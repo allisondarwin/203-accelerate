@@ -415,6 +415,27 @@ div.nf-field-element #nf-field-4 {
     text-align: center;
   }
 
+  .blog-post,
+  .tweet {
+    width: 45%;
+  }
+
+  .blog-post {
+    float: left;
+  }
+
+  .tweet {
+    float: right;
+  }
+
+  .site-info {
+    flex-wrap: nowrap;
+  }
+
+  .social-media-navigation{
+    width: 30%;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
