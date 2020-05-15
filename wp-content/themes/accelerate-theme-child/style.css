@@ -387,5 +387,11 @@ div.nf-field-element #nf-field-4 {
   .read-more-link {
     color: red;
   }
-  
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+
 }
