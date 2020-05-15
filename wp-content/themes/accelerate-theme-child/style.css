@@ -403,6 +403,18 @@ div.nf-field-element #nf-field-4 {
     padding: 0.75em 3em;  /*desktop - 1em 3.75em*/
   }
 
+  .homepage-featured-work {
+    width: 100%;
+  }
+
+  .featured-work-image {
+    text-align: center;
+  }
+  .individual-featured-work h3 {
+    width: 100%;
+    text-align: center;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
