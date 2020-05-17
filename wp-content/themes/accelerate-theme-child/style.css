@@ -166,9 +166,9 @@ div#secondary.widget-area .stt-em {
 }
 
 div#primary.about-page.hero-content h3 {
-  font-size: 1.5em;
+  font-size: 1.25em;  /*desktop - 1.5em*/
   margin: 0 auto 2em auto;
-  width: 40%;
+  width: 90%; /*desktop - 40%*/
   line-height: 1.5em;
 }
 
@@ -182,7 +182,7 @@ div#primary.about-page.hero-content h3 {
 .services-intro {
   font-size: 1em;
   text-align: center;
-  width: 50%;
+  width: 90%;  /*desktop - 50%*/
 }
 
 .services-content {
@@ -191,16 +191,18 @@ div#primary.about-page.hero-content h3 {
 
 .individual-service {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /*desktop - space between*/
   margin-bottom: 60px;
+  flex-flow: row wrap;   /*added for mobile*/
 }
 
-.individual-service:nth-child(even) {
+.individual-service:nth-child(even) {     /*move to tablet?*/
   flex-direction: row-reverse;
 }
 
 .individual-service .service-details {
-  width: 70%;
+  width: 90%;    /*desktop - 70%*/
+  text-align: center; /*added for mobile*/
 }
 
 .service-details h3, p {
@@ -221,12 +223,13 @@ div#primary.about-page.hero-content h3 {
   display: flex;
   justify-content: center;
   align-content: center;
+  flex-flow: row wrap; /* added for mobile*/
 }
 
 .call-to-action h4 {
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1.5em;
-  margin: 70px 20px 30px 0;
+  font-size: 1.25em;  /*desktop - 1.5em */
+  margin: 50px 0 0; /*desktop - 70px 2-px 30px 0 */
 }
 
 .cta-button {
@@ -234,8 +237,8 @@ div#primary.about-page.hero-content h3 {
   color: #fff;
   font-size: 1.25em;
   font-weight: 700;
-  padding: 15px 60px;
-  margin: 70px 0 30px 20px;
+  padding: 10px 40px;  /*desktop - 15px 60px*/
+  margin: 30px 0;   /*desktop - 70px 0 30px 20px */
 }
 
 /*** Single Case Study Styles ***/
