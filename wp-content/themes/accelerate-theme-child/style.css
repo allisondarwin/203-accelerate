@@ -166,9 +166,9 @@ div#secondary.widget-area .stt-em {
 }
 
 div#primary.about-page.hero-content h3 {
-  font-size: 1.25em;  /*desktop - 1.5em*/
+  font-size: 1.25em;
   margin: 0 auto 2em auto;
-  width: 90%; /*desktop - 40%*/
+  width: 90%;
   line-height: 1.5em;
 }
 
@@ -182,7 +182,7 @@ div#primary.about-page.hero-content h3 {
 .services-intro {
   font-size: 1em;
   text-align: center;
-  width: 90%;  /*desktop - 50%*/
+  width: 90%;
 }
 
 .services-content {
@@ -191,18 +191,18 @@ div#primary.about-page.hero-content h3 {
 
 .individual-service {
   display: flex;
-  justify-content: center;  /*desktop - space between*/
+  justify-content: center;
   margin-bottom: 60px;
-  flex-flow: row wrap;   /*added for mobile*/
+  flex-flow: row wrap;
 }
 
-.individual-service:nth-child(even) {     /*move to tablet?*/
+.individual-service:nth-child(even) {
   flex-direction: row-reverse;
 }
 
 .individual-service .service-details {
-  width: 90%;    /*desktop - 70%*/
-  text-align: center; /*added for mobile*/
+  width: 90%;
+  text-align: center;
 }
 
 .service-details h3, p {
@@ -223,13 +223,13 @@ div#primary.about-page.hero-content h3 {
   display: flex;
   justify-content: center;
   align-content: center;
-  flex-flow: row wrap; /* added for mobile*/
+  flex-flow: row wrap;
 }
 
 .call-to-action h4 {
   font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1.25em;  /*desktop - 1.5em */
-  margin: 50px 0 0; /*desktop - 70px 2-px 30px 0 */
+  font-size: 1.25em;
+  margin: 50px 0 0;
 }
 
 .cta-button {
@@ -515,5 +515,28 @@ div.nf-field-element #nf-field-4 {
     width: 15%;
   }
 
+  /**** About Page Desktop Styles ****/
+
+  div#primary.about-page.hero-content h3 {
+    width: 40%;
+  }
+
+  .services-intro {
+    width: 50%;
+  }
+
+  .individual-service .service-details {
+    width: 70%;
+  }
+
+  .call-to-action h4 {
+    font-size: 1.5em;
+    margin: 70px 20px 30px 0;
+  }
+
+  .cta-button {
+    padding: 15px 60px;
+    margin: 70px 0 30px 20px;
+  }
 
 }
