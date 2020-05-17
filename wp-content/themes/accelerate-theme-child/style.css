@@ -442,6 +442,34 @@ div.nf-field-element #nf-field-4 {
     width: 20%;
   }
 
+  /**** About Page Tablet Styles ****/
+
+  div#primary.about-page.hero-content h3 {
+    font-size: 1.5em;
+    width: 70%;
+  }
+
+  .services-intro {
+    width: 70%;
+  }
+
+  .individual-service {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .individual-service .service-details {
+    width: 65%;
+    text-align: left;
+  }
+
+  .call-to-action {
+    justify-content: space-around;
+  }
+
+  .cta-button {
+    margin: 40px 0 0;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
